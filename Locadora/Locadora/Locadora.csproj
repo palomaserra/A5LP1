@@ -54,6 +54,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="CadastroDeCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CadastroDeUsuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LocadoraFilme.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -69,6 +77,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CadastroDeCliente.xaml.cs">
+      <DependentUpon>CadastroDeCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroDeUsuario.xaml.cs">
+      <DependentUpon>CadastroDeUsuario.xaml</DependentUpon>
     </Compile>
     <Compile Include="LocadoraFilme.xaml.cs">
       <DependentUpon>LocadoraFilme.xaml</DependentUpon>
